@@ -12,6 +12,7 @@ export interface ErrorBoundaryState {
 	errorInfo?: ErrorInfo;
 }
 
-export type ImageProps<Logger = any> = ErrorBoundaryProps<Logger> & NativeImageProps & {
-	fallback: ImageSourcePropType;
+export type ProgressiveImageProps<Logger = any> = ErrorBoundaryProps<Logger> & NativeImageProps & {
+	placeholder: ImageSourcePropType;
+	blurRadius?: number
 };
