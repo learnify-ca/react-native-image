@@ -1,0 +1,9 @@
+docs
+example
+node_modules
+src
+storybook
+.env
+.gitignore
+babel.config.js
+jest.config.ts
