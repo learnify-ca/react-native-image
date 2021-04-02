@@ -28,9 +28,9 @@ export default class ErrorBoundary<Logger = unknown> extends Component<ErrorBoun
 		const { hasError, error, errorInfo } = this.state;
 
 		if (!hasError)
-			return children;
+			return <>{children}</>;
 		else if (error && errorInfo)
-			return errorFallback(error, errorInfo);
+			return <>{errorFallback(error, errorInfo)}</>;
 		else return null;
 	}
 }
