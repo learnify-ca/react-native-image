@@ -1,69 +1,69 @@
 {
-  "name": "@learnify/react-native-image",
-  "version": "0.1.0",
-  "description": "Light wrapper around react-native Image component, with built-in error boundary and progressive loading effects",
-  "main": "lib/index.js",
-  "scripts": {
-    "build": "npm run clean && npm run build:types && npm run build:js",
-    "build:types": "tsc --emitDeclarationOnly",
-    "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
-    "clean": "rimraf lib",
-    "compile": "babel src --out-dir ./ --ignore 'src /**/*.test.js'",
-    "docs:clean": "rimraf docs",
-    "docs:read": "open ./docs/index.html",
-    "docs:write": "npm run docs:clean && typedoc --out docs src --excludeNotDocumented",
-    "prepublish": "npm run build",
-    "test": "jest",
-    "storybook": "start-storybook -p 7007",
-    "build-storybook": "build-storybook"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/learnify-ca/react-native-image.git"
-  },
-  "keywords": [
-    "react",
-    "native",
-    "image",
-    "loading",
-    "progressive",
-    "lazy",
-    "error"
-  ],
-  "author": "Richard Antao",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/learnify-ca/react-native-image/issues"
-  },
-  "homepage": "https://github.com/learnify-ca/react-native-image#readme",
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-native": "^0.64.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.13.14",
-    "@babel/core": "^7.13.14",
-    "@babel/preset-env": "^7.13.12",
-    "@babel/preset-typescript": "^7.13.0",
-    "@storybook/addon-actions": "^5.3.21",
-    "@storybook/addon-knobs": "^5.3.21",
-    "@storybook/addon-links": "^5.3.21",
-    "@storybook/addon-ondevice-actions": "^5.3.23",
-    "@storybook/addon-ondevice-knobs": "^5.3.25",
-    "@storybook/react-native": "^5.3.25",
-    "@storybook/react-native-server": "^5.3.23",
-    "@types/react": "^17.0.3",
-    "@types/react-native": "^0.64.2",
-    "@typescript-eslint/eslint-plugin": "^4.20.0",
-    "@typescript-eslint/parser": "^4.20.0",
-    "babel-loader": "^8.2.2",
-    "eslint": "^7.23.0",
-    "eslint-plugin-react": "^7.23.1",
-    "jest": "^26.6.3",
-    "react-dom": "^17.0.2",
-    "rimraf": "^2.7.1",
-    "ts-jest": "^26.5.4",
-    "typedoc": "^0.20.34",
-    "typescript": "^4.2.3"
-  }
+	"name": "@learnify/react-native-image",
+	"version": "0.1.0",
+	"description": "Light wrapper around react-native Image component, with built-in error boundary and progressive loading effects",
+	"main": "lib/index.js",
+	"scripts": {
+		"build": "npm run clean && npm run build:types && npm run build:js",
+		"build:types": "tsc --emitDeclarationOnly",
+		"build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
+		"clean": "rimraf lib",
+		"compile": "babel src --out-dir ./ --ignore 'src /**/*.test.js'",
+		"docs:clean": "rimraf docs",
+		"docs:read": "open ./docs/index.html",
+		"docs:write": "npm run docs:clean && typedoc --out docs src --excludeNotDocumented",
+		"prepublish": "npm run build",
+		"test": "jest",
+		"storybook": "start-storybook -p 7007",
+		"build-storybook": "build-storybook"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/learnify-ca/react-native-image.git"
+	},
+	"keywords": [
+		"react",
+		"native",
+		"image",
+		"loading",
+		"progressive",
+		"lazy",
+		"error"
+	],
+	"author": "Richard Antao",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/learnify-ca/react-native-image/issues"
+	},
+	"homepage": "https://github.com/learnify-ca/react-native-image#readme",
+	"dependencies": {
+		"react": "^17.0.1",
+		"react-native": "^0.64.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.13.14",
+		"@babel/core": "^7.13.14",
+		"@babel/preset-env": "^7.13.12",
+		"@babel/preset-typescript": "^7.13.0",
+		"@storybook/addon-actions": "^5.3.21",
+		"@storybook/addon-knobs": "^5.3.21",
+		"@storybook/addon-links": "^5.3.21",
+		"@storybook/addon-ondevice-actions": "^5.3.23",
+		"@storybook/addon-ondevice-knobs": "^5.3.25",
+		"@storybook/react-native": "^5.3.25",
+		"@storybook/react-native-server": "^5.3.23",
+		"@types/react": "^17.0.3",
+		"@types/react-native": "^0.64.2",
+		"@typescript-eslint/eslint-plugin": "^4.20.0",
+		"@typescript-eslint/parser": "^4.20.0",
+		"babel-loader": "^8.2.2",
+		"eslint": "^7.23.0",
+		"eslint-plugin-react": "^7.23.1",
+		"jest": "^26.6.3",
+		"react-dom": "^17.0.2",
+		"rimraf": "^2.7.1",
+		"ts-jest": "^26.5.4",
+		"typedoc": "^0.20.34",
+		"typescript": "^4.2.3"
+	}
 }
