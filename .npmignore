@@ -4,6 +4,7 @@ node_modules
 src
 storybook
 .env
+.eslintrc.js
 .gitignore
 babel.config.js
 jest.config.ts
