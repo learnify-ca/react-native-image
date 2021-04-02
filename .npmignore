@@ -8,3 +8,6 @@ storybook
 .gitignore
 babel.config.js
 jest.config.ts
+LICENSE.md
+README.md
+tsconfig.json

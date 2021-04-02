@@ -1,4 +1,5 @@
 /* Types */
+import React from "react";
 import { Component, ErrorInfo, ReactNode } from "react";
 import { ErrorBoundaryProps, ErrorBoundaryState } from "./types";
 
