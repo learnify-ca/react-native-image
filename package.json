@@ -37,7 +37,7 @@
 	},
 	"homepage": "https://github.com/learnify-ca/react-native-image#readme",
 	"dependencies": {
-		"react": "^17.0.1",
+		"react": "^16.13.1",
 		"react-native": "^0.64.0"
 	},
 	"devDependencies": {
@@ -52,7 +52,7 @@
 		"@storybook/addon-ondevice-knobs": "^5.3.25",
 		"@storybook/react-native": "^5.3.25",
 		"@storybook/react-native-server": "^5.3.23",
-		"@types/react": "^17.0.3",
+		"@types/react": "^16.9.56",
 		"@types/react-native": "^0.64.2",
 		"@typescript-eslint/eslint-plugin": "^4.20.0",
 		"@typescript-eslint/parser": "^4.20.0",
